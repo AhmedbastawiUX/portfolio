@@ -21,6 +21,13 @@
     background-color: #ffffff;
     border-left: 2px solid #2a1ae0;
     animation: animate 4s steps(12) infinite;
+
+}
+#main.navsticky{ 
+    position: fixed;
+    top: 0;
+
+        
 }
 @keyframes animate{
     40%, 60%{
@@ -29,3 +36,4 @@
     100%{
         left: 0%;
     }
+    
